@@ -66,7 +66,7 @@
 
         /* --- Header Styling --- */
         #main-header {
-            transition: background-color 0.4s ease-out, box-shadow 0.4s ease-out;
+            transition: background-color 0.4s ease-out, box-shadow 0 0.4s ease-out;
             position: fixed;
             width: 100%;
             top: 0;
@@ -273,155 +273,83 @@
                  <div class="container mx-auto px-6 text-center">
                     <div class="animate-on-scroll" data-animation="animate__fadeInUp">
                         <h3 class="text-3xl font-bold mb-2">Un service tout-en-un</h3>
-                        <p class="text-gray-600 max-w-2xl mx-auto mb-12">De l'acquisition à la sécurité, en passant par l'entretien et l'international, nous couvrons tous vos besoins avec une expertise inégalée.</p>
+                        <p class="text-gray-600 max-w-2xl mx-auto mb-12">De l'acquisition à la sécurité, nous couvrons tous vos besoins avec une expertise inégalée.</p>
                     </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
+                    <div class="grid md:grid-cols-4 gap-8">
                         <div class="p-6 transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp">
                             <i class="fas fa-car fa-3x sterling-red mb-4"></i>
                             <h4 class="font-bold text-xl mb-2">Vente</h4>
-                            <p class="text-gray-600">Voitures neuves et occasions inspectées.</p>
+                            <p class="text-gray-600">Voitures neuves toutes marques et occasions inspectées.</p>
                         </div>
                         <div class="p-6 transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.1s;">
                             <i class="fas fa-key fa-3x sterling-red mb-4"></i>
                             <h4 class="font-bold text-xl mb-2">Location</h4>
-                            <p class="text-gray-600">Solutions flexibles et adaptées.</p>
+                            <p class="text-gray-600">Solutions flexibles, de la courte durée à l'option d'achat.</p>
                         </div>
                         <div class="p-6 transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.2s;">
                             <i class="fas fa-shield-halved fa-3x sterling-red mb-4"></i>
                             <h4 class="font-bold text-xl mb-2">Sécurité</h4>
-                            <p class="text-gray-600">Installation de caméras experte.</p>
+                            <p class="text-gray-600">Installation professionnelle de caméras de surveillance.</p>
                         </div>
                         <div class="p-6 transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.3s;">
-                            <i class="fas fa-globe-africa fa-3x sterling-red mb-4"></i>
-                            <h4 class="font-bold text-xl mb-2">Import & Export</h4>
-                            <p class="text-gray-600">Logistique et douanes simplifiées.</p>
-                        </div>
-                        <div class="p-6 transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.4s;">
                             <i class="fas fa-cogs fa-3x sterling-red mb-4"></i>
                             <h4 class="font-bold text-xl mb-2">Services+</h4>
-                            <p class="text-gray-600">Entretien, financement et assistance.</p>
+                            <p class="text-gray-600">Entretien, dépannage et facilitation d'importations.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Installation Service Section -->
+            <!-- NEW: Nos Engagements -->
             <div class="py-20 bg-gray-50">
-                <div class="container mx-auto px-6">
-                    <div class="grid md:grid-cols-2 gap-12 items-center">
-                        <div class="animate-on-scroll" data-animation="animate__fadeInLeft">
-                             <img src="https://images.unsplash.com/photo-1631048032483-32575a6f4410?q=80&w=2070&auto=format&fit=crop" class="rounded-lg shadow-xl w-full" alt="Technicien installant une caméra de surveillance">
-                        </div>
-                        <div class="animate-on-scroll" data-animation="animate__fadeInRight">
-                            <h3 class="text-3xl font-bold mb-2">Un Service d'Installation Professionnel</h3>
-                            <p class="text-gray-600 max-w-2xl mb-6">Au-delà des véhicules, votre sécurité est notre mission.</p>
-                            <p class="mb-4 text-lg text-gray-600">
-                                Nous offrons des solutions complètes pour l'installation de systèmes de surveillance. Nos techniciens certifiés assurent une mise en place discrète et efficace pour vos résidences ou locaux professionnels.
-                            </p>
-                            <ul class="space-y-3 text-gray-600 mb-8">
-                                <li class="flex items-start"><i class="fas fa-check-circle sterling-red mt-1 mr-3"></i> <div><strong>Audit & Conseil :</strong> Évaluation de vos besoins sur site.</div></li>
-                                <li class="flex items-start"><i class="fas fa-check-circle sterling-red mt-1 mr-3"></i> <div><strong>Installation Experte :</strong> Matériel de pointe et finition soignée.</div></li>
-                                <li class="flex items-start"><i class="fas fa-check-circle sterling-red mt-1 mr-3"></i> <div><strong>Configuration & Suivi :</strong> Accès mobile et support continu.</div></li>
-                            </ul>
-                            <div class="btn-sterling" onclick="showPage('securite')">
-                                Découvrir nos solutions
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Import & Export Section -->
-            <div class="py-20 bg-white">
-                <div class="container mx-auto px-6">
-                    <div class="grid md:grid-cols-2 gap-12 items-center">
-                        <div class="animate-on-scroll" data-animation="animate__fadeInLeft">
-                            <h3 class="text-3xl font-bold mb-2">Facilitez vos Échanges Internationaux</h3>
-                            <p class="text-gray-600 max-w-2xl mb-6">Importez ou exportez votre prochain véhicule en toute sérénité.</p>
-                            <p class="mb-4 text-lg text-gray-600">
-                                Sterling simplifie la logistique internationale pour vous. Nous prenons en charge l'ensemble du processus, des formalités douanières complexes au transport sécurisé, pour que votre véhicule arrive à destination sans encombre, où que vous soyez dans le monde.
-                            </p>
-                            <ul class="space-y-3 text-gray-600 mb-8">
-                                <li class="flex items-start"><i class="fas fa-ship sterling-red mt-1 mr-3"></i> <div><strong>Logistique Complète :</strong> Transport maritime et aérien fiable et sécurisé.</div></li>
-                                <li class="flex items-start"><i class="fas fa-file-invoice sterling-red mt-1 mr-3"></i> <div><strong>Dédouanement Simplifié :</strong> Nous gérons toutes les formalités administratives pour vous.</div></li>
-                                <li class="flex items-start"><i class="fas fa-map-marked-alt sterling-red mt-1 mr-3"></i> <div><strong>Suivi en Temps Réel :</strong> Restez informé à chaque étape du processus.</div></li>
-                            </ul>
-                            <div class="btn-sterling" onclick="showPage('contact')">
-                                Lancer mon projet
-                            </div>
-                        </div>
-                        <div class="animate-on-scroll" data-animation="animate__fadeInRight">
-                             <img src="https://images.unsplash.com/photo-1578574577315-3fbeb0cecdc2?q=80&w=2070&auto=format&fit=crop" class="rounded-lg shadow-xl w-full" alt="Logistique internationale et conteneurs">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Services+ Section -->
-            <div class="py-20 bg-gray-50">
-                <div class="container mx-auto px-6">
-                    <div class="grid md:grid-cols-2 gap-12 items-center">
-                        <div class="order-last md:order-first animate-on-scroll" data-animation="animate__fadeInLeft">
-                            <h3 class="text-3xl font-bold mb-2">Nos Services+ : L'automobile et au-delà</h3>
-                            <p class="text-gray-600 max-w-2xl mb-6">Nous vous accompagnons à chaque étape de votre vie d'automobiliste.</p>
-                            <p class="mb-4 text-lg text-gray-600">
-                                Chez Sterling, notre engagement ne s'arrête pas à la vente ou la location. Nous avons conçu une gamme de services additionnels pour vous offrir une tranquillité d'esprit totale et des solutions adaptées à tous vos besoins.
-                            </p>
-                            <ul class="space-y-3 text-gray-600 mb-8">
-                                <li class="flex items-start"><i class="fas fa-tools sterling-red mt-1 mr-3"></i> <div><strong>Entretien & Réparation :</strong> Notre atelier expert prend soin de votre véhicule pour une longévité maximale.</div></li>
-                                <li class="flex items-start"><i class="fas fa-hand-holding-usd sterling-red mt-1 mr-3"></i> <div><strong>Solutions de Financement :</strong> Des offres sur mesure pour faciliter l'acquisition de votre nouvelle voiture.</div></li>
-                                <li class="flex items-start"><i class="fas fa-life-ring sterling-red mt-1 mr-3"></i> <div><strong>Assistance & Dépannage :</strong> Un support réactif pour vous aider à surmonter les imprévus de la route.</div></li>
-                            </ul>
-                            <div class="btn-sterling" onclick="showPage('contact')">
-                                En savoir plus
-                            </div>
-                        </div>
-                        <div class="animate-on-scroll" data-animation="animate__fadeInRight">
-                             <img src="https://images.unsplash.com/photo-1553775282-20af807797d1?q=80&w=2070&auto=format&fit=crop" class="rounded-lg shadow-xl w-full" alt="Mécanicien travaillant sur une voiture">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Testimonials Section -->
-            <div class="py-20 bg-white">
                 <div class="container mx-auto px-6 text-center">
                     <div class="animate-on-scroll" data-animation="animate__fadeInUp">
-                        <h3 class="text-3xl font-bold mb-2">La Confiance de nos Clients</h3>
-                        <p class="text-gray-600 max-w-2xl mx-auto mb-12">Ils nous ont fait confiance, voici ce qu'ils en disent.</p>
+                        <h3 class="text-3xl font-bold mb-2">Nos Engagements</h3>
+                        <p class="text-gray-600 max-w-2xl mx-auto mb-12">La promesse d'un service qui va au-delà de vos attentes.</p>
                     </div>
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <div class="bg-gray-50 p-8 rounded-lg animate-on-scroll" data-animation="animate__fadeInUp">
-                            <img src="https://placehold.co/100x100/E8D8C3/1a1a1a?text=A.M" alt="Avatar client" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-white shadow-lg">
-                            <p class="text-gray-600 mb-4 italic">"Un service de location impeccable. Le véhicule était en parfait état et l'équipe a été d'une grande aide pour répondre à mes besoins. Je recommande vivement !"</p>
-                            <h4 class="font-bold text-lg sterling-red">Alain M.</h4>
-                            <p class="text-sm text-gray-500">Client Location</p>
+                    <div class="grid md:grid-cols-4 gap-8">
+                        <div class="p-6 animate-on-scroll" data-animation="animate__fadeInUp">
+                            <i class="fas fa-handshake fa-3x sterling-red mb-4"></i>
+                            <h4 class="font-bold text-xl mb-2">Satisfaction Client</h4>
+                            <p class="text-gray-600">Votre satisfaction est notre priorité. Nous vous offrons un service personnalisé et des solutions sur mesure.</p>
                         </div>
-                        <div class="bg-gray-50 p-8 rounded-lg animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.1s;">
-                            <img src="https://placehold.co/100x100/E8D8C3/1a1a1a?text=F.B" alt="Avatar client" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-white shadow-lg">
-                            <p class="text-gray-600 mb-4 italic">"J'ai acheté ma voiture chez Sterling et je suis plus que satisfaite. Le processus a été transparent et l'équipe a su me conseiller le modèle parfait pour ma famille."</p>
-                            <h4 class="font-bold text-lg sterling-red">Fatou B.</h4>
-                            <p class="text-sm text-gray-500">Cliente Achat</p>
+                        <div class="p-6 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.1s;">
+                            <i class="fas fa-check-double fa-3x sterling-red mb-4"></i>
+                            <h4 class="font-bold text-xl mb-2">Qualité & Fiabilité</h4>
+                            <p class="text-gray-600">Chaque véhicule est rigoureusement inspecté pour vous garantir une fiabilité et une sécurité optimales.</p>
                         </div>
-                        <div class="bg-gray-50 p-8 rounded-lg animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.2s;">
-                            <img src="https://placehold.co/100x100/E8D8C3/1a1a1a?text=J.K" alt="Avatar client" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-white shadow-lg">
-                            <p class="text-gray-600 mb-4 italic">"L'installation des caméras de sécurité pour mon commerce a été réalisée avec un grand professionnalisme. Je me sens beaucoup plus en sécurité maintenant. Merci Sterling !"</p>
-                            <h4 class="font-bold text-lg sterling-red">Jean K.</h4>
-                            <p class="text-sm text-gray-500">Client Sécurité</p>
+                        <div class="p-6 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.2s;">
+                            <i class="fas fa-file-contract fa-3x sterling-red mb-4"></i>
+                            <h4 class="font-bold text-xl mb-2">Transparence Totale</h4>
+                            <p class="text-gray-600">Des offres claires, des contrats sans surprise. Vous savez exactement ce que vous payez.</p>
+                        </div>
+                        <div class="p-6 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.3s;">
+                            <i class="fas fa-headset fa-3x sterling-red mb-4"></i>
+                            <h4 class="font-bold text-xl mb-2">Support Continu</h4>
+                            <p class="text-gray-600">Notre équipe reste à votre disposition pour l'entretien, le dépannage et toute autre assistance.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!-- PAGE: LOCATION -->
-        <section id="location" class="page-section py-20 bg-gray-50">
+        <section id="location" class="page-section pt-20 bg-gray-50">
             <div class="container mx-auto px-6">
-                <div class="text-center mb-12 animate-on-scroll" data-animation="animate__fadeInUp">
-                    <h2 class="text-4xl font-bold sterling-red">Prenez la route en toute liberté.</h2>
-                    <p class="mt-2 text-xl text-gray-700">Découvrez nos véhicules et trouvez celui qui vous accompagnera demain.</p>
+                <!-- HERO SECTION FOR LOCATION -->
+                <div class="relative rounded-lg overflow-hidden bg-gray-900 text-white py-24 md:py-32 text-center mb-16 shadow-2xl animate-on-scroll" data-animation="animate__fadeIn">
+                    <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop" 
+                         alt="Voiture de sport sur une route au coucher du soleil" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-50">
+                    <div class="relative z-10">
+                        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight animate__animated animate__fadeInDown">
+                            Prenez la route en toute liberté.
+                        </h2>
+                        <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto animate__animated animate__fadeInUp">
+                            Découvrez nos véhicules et trouvez celui qui vous accompagnera demain.
+                        </p>
+                    </div>
                 </div>
+
                  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                     <div class="bg-white text-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp">
                         <img src="https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=2070&auto=format&fit=crop" alt="Toyota RAV4" class="w-full h-56 object-cover">
@@ -435,7 +363,7 @@
                         </div>
                     </div>
                     <div class="bg-white text-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.1s;">
-                        <img src="https://images.unsplash.com/photo-1622129284224-2c3b124354c3?q=80&w=2070&auto=format&fit=crop" alt="Suzuki Swift" class="w-full h-56 object-cover">
+                        <img src="Suzuki Swift.jpg" alt="Suzuki Swift" class="w-full h-56 object-cover">
                         <div class="p-6">
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Suzuki Swift</h3>
                             <p class="text-gray-600 mb-4">La citadine agile et économique, idéale pour vos déplacements quotidiens.</p>
@@ -446,7 +374,7 @@
                         </div>
                     </div>
                     <div class="bg-white text-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.2s;">
-                        <img src="https://images.unsplash.com/photo-1617469747534-b92138b55452?q=80&w=1964&auto=format&fit=crop" alt="Jetour X70" class="w-full h-56 object-cover">
+                        <img src="jetourx70.png" alt="Jetour X70" class="w-full h-56 object-cover">
                         <div class="p-6">
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Jetour X70</h3>
                             <p class="text-gray-600 mb-4">Un SUV spacieux et moderne pour un confort de conduite inégalé.</p>
@@ -463,13 +391,25 @@
         <!-- PAGE: VENTE -->
         <section id="vente" class="page-section py-20 bg-white">
             <div class="container mx-auto px-6">
-                <div class="text-center mb-12 animate-on-scroll" data-animation="animate__fadeInUp">
-                    <h2 class="text-4xl font-bold sterling-red">Trouvez le partenaire de route idéal.</h2>
-                    <p class="mt-2 text-xl text-gray-700">Une sélection rigoureuse de véhicules neufs et d'occasion pour vous satisfaire.</p>
+                <!-- NOUVELLE SECTION HERO POUR LA VENTE -->
+                <div class="relative rounded-lg overflow-hidden bg-gray-900 text-white py-24 md:py-32 text-center mb-16 shadow-2xl animate-on-scroll" data-animation="animate__fadeIn">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop" 
+                         alt="Intérieur de voiture de luxe" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-50">
+                    <div class="relative z-10">
+                        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight animate__animated animate__fadeInDown">
+                            Trouvez le partenaire de route idéal.
+                        </h2>
+                        <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto animate__animated animate__fadeInUp">
+                            Une sélection rigoureuse de véhicules neufs et d'occasion pour vous satisfaire.
+                        </p>
+                    </div>
                 </div>
+                <!-- FIN NOUVELLE SECTION HERO POUR LA VENTE -->
+
                  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                     <div class="bg-gray-50 text-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp">
-                        <div class="relative"><img src="https://images.unsplash.com/photo-1598935825226-d08fac828552?q=80&w=2070&auto=format&fit=crop" alt="Toyota IST" class="w-full h-56 object-cover"><span class="absolute top-4 left-4 sterling-red-bg text-white text-sm font-bold px-3 py-1 rounded">Occasion</span></div>
+                        <div class="relative"><img src="toyotaist.jpeg" alt="Toyota IST" class="w-full h-56 object-cover"><span class="absolute top-4 left-4 sterling-red-bg text-white text-sm font-bold px-3 py-1 rounded">Occasion</span></div>
                         <div class="p-6">
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Toyota IST</h3>
                             <p class="text-gray-600 mb-4">Fiable et économique, un excellent choix pour la ville.</p>
@@ -477,7 +417,7 @@
                         </div>
                     </div>
                     <div class="bg-gray-50 text-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.1s;">
-                        <div class="relative"><img src="https://images.unsplash.com/photo-1617469747534-b92138b55452?q=80&w=1964&auto=format&fit=crop" alt="Jetour X70" class="w-full h-56 object-cover"><span class="absolute top-4 left-4 sterling-red-bg text-white text-sm font-bold px-3 py-1 rounded">Neuf</span></div>
+                        <div class="relative"><img src="jetourx70.png" alt="Jetour X70" class="w-full h-56 object-cover"><span class="absolute top-4 left-4 sterling-red-bg text-white text-sm font-bold px-3 py-1 rounded">Neuf</span></div>
                         <div class="p-6">
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Jetour X70</h3>
                             <p class="text-gray-600 mb-4">Luxe, espace et technologie. Disponible sur commande.</p>
@@ -485,7 +425,7 @@
                         </div>
                     </div>
                     <div class="bg-gray-50 text-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" data-animation="animate__fadeInUp" style="animation-delay: 0.2s;">
-                         <div class="relative"><img src="https://images.unsplash.com/photo-1622129284224-2c3b124354c3?q=80&w=2070&auto=format&fit=crop" alt="Suzuki Swift" class="w-full h-56 object-cover"><span class="absolute top-4 left-4 sterling-red-bg text-white text-sm font-bold px-3 py-1 rounded">Neuf & Occasion</span></div>
+                         <div class="relative"><img src="Suzuki Swift.jpg" alt="Suzuki Swift" class="w-full h-56 object-cover"><span class="absolute top-4 left-4 sterling-red-bg text-white text-sm font-bold px-3 py-1 rounded">Neuf & Occasion</span></div>
                         <div class="p-6">
                             <h3 class="text-2xl font-bold mb-2 text-gray-900">Suzuki Swift</h3>
                             <p class="text-gray-600 mb-4">Style et performance. Disponible en neuf ou occasion.</p>
@@ -499,10 +439,22 @@
         <!-- PAGE: SÉCURITÉ -->
         <section id="securite" class="page-section py-20 bg-gray-50">
             <div class="container mx-auto px-6">
-                <div class="text-center mb-12 animate-on-scroll" data-animation="animate__fadeInUp">
-                    <h2 class="text-4xl font-bold sterling-red">Votre tranquillité d'esprit, notre priorité absolue.</h2>
-                    <p class="mt-2 text-xl max-w-3xl mx-auto text-gray-700">Solutions de sécurité adaptées à vos besoins : vente et installation de caméras de surveillance.</p>
+                <!-- NOUVELLE SECTION HERO POUR LA SÉCURITÉ -->
+                <div class="relative rounded-lg overflow-hidden bg-gray-900 text-white py-24 md:py-32 text-center mb-16 shadow-2xl animate-on-scroll" data-animation="animate__fadeIn">
+                    <img src="systeme.jpg" 
+                         alt="Système de surveillance de sécurité" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-50">
+                    <div class="relative z-10">
+                        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight animate__animated animate__fadeInDown">
+                            Votre tranquillité d'esprit, notre priorité absolue.
+                        </h2>
+                        <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto animate__animated animate__fadeInUp">
+                            Solutions de sécurité adaptées à vos besoins : vente et installation de caméras de surveillance.
+                        </p>
+                    </div>
                 </div>
+                <!-- FIN NOUVELLE SECTION HERO POUR LA SÉCURITÉ -->
+
                 <div class="my-16 grid md:grid-cols-2 gap-12 items-center">
                     <div class="animate-on-scroll" data-animation="animate__fadeInLeft">
                         <h3 class="text-3xl font-bold mb-6 text-gray-900">Nos services, votre sérénité</h3>
@@ -514,7 +466,7 @@
                         </ul>
                     </div>
                     <div class="animate-on-scroll" data-animation="animate__fadeInRight">
-                        <img src="https://images.unsplash.com/photo-1588497836228-a2d3b38c6523?q=80&w=1964&auto=format&fit=crop" class="rounded-lg shadow-2xl" alt="Caméra de sécurité">
+                        <img src="camera.jpg" class="rounded-lg shadow-2xl" alt="Caméra de sécurité">
                     </div>
                 </div>
                  <div class="text-center mt-16 animate-on-scroll" data-animation="animate__fadeInUp">
@@ -528,10 +480,21 @@
         <!-- PAGE: À PROPOS -->
         <section id="apropos" class="page-section py-20 bg-white">
             <div class="container mx-auto px-6">
-                <div class="text-center mb-12 animate-on-scroll" data-animation="animate__fadeInUp">
-                    <h2 class="text-4xl font-bold sterling-red">L'excellence est notre moteur.</h2>
-                    <p class="mt-2 text-xl text-gray-700">Chez Sterling, l'excellence frôle la perfection.</p>
+                <!-- NOUVELLE SECTION HERO POUR À PROPOS -->
+                <div class="relative rounded-lg overflow-hidden bg-gray-900 text-white py-24 md:py-32 text-center mb-16 shadow-2xl animate-on-scroll" data-animation="animate__fadeIn">
+                    <img src="equipe.jpg" 
+                         alt="Équipe professionnelle souriante" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-50">
+                    <div class="relative z-10">
+                        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight animate__animated animate__fadeInDown">
+                            L'excellence est notre moteur.
+                        </h2>
+                        <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto animate__animated animate__fadeInUp">
+                            Chez Sterling, l'excellence frôle la perfection.
+                        </p>
+                    </div>
                 </div>
+                <!-- FIN NOUVELLE SECTION HERO POUR À PROPOS -->
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="animate-on-scroll" data-animation="animate__fadeInLeft">
                         <h3 class="text-3xl font-bold mb-4 text-gray-900">Notre Mission</h3>
@@ -543,7 +506,7 @@
                         </p>
                     </div>
                     <div class="animate-on-scroll" data-animation="animate__fadeInRight">
-                        <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7185743?q=80&w=2070&auto=format&fit=crop" class="rounded-lg shadow-xl w-full">
+                        <img src="mission.jpg" class="rounded-lg shadow-xl w-full">
                     </div>
                 </div>
                 <!-- NEW: Pourquoi nous choisir -->
@@ -564,10 +527,21 @@
         <!-- PAGE: CONTACT -->
         <section id="contact" class="page-section py-20 bg-gray-50">
             <div class="container mx-auto px-6">
-                 <div class="text-center mb-12 animate-on-scroll" data-animation="animate__fadeInUp">
-                    <h2 class="text-4xl font-bold sterling-red">Contactez-nous.</h2>
-                    <p class="mt-2 text-xl text-gray-700">Notre équipe est à votre écoute pour vous conseiller.</p>
+                <!-- NOUVELLE SECTION HERO POUR CONTACT -->
+                <div class="relative rounded-lg overflow-hidden bg-gray-900 text-white py-24 md:py-32 text-center mb-16 shadow-2xl animate-on-scroll" data-animation="animate__fadeIn">
+                    <img src="appel.jpg" 
+                         alt="Personne travaillant dans un centre d'appels" 
+                         class="absolute inset-0 w-full h-full object-cover opacity-50">
+                    <div class="relative z-10">
+                        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight animate__animated animate__fadeInDown">
+                            Contactez-nous.
+                        </h2>
+                        <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto animate__animated animate__fadeInUp">
+                            Notre équipe est à votre écoute pour vous conseiller.
+                        </p>
+                    </div>
                 </div>
+                <!-- FIN NOUVELLE SECTION HERO POUR CONTACT -->
                 <div class="grid md:grid-cols-2 gap-12">
                     <!-- Contact Form -->
                     <div class="bg-white p-8 rounded-lg shadow-xl animate-on-scroll" data-animation="animate__fadeInLeft">
@@ -608,7 +582,7 @@
                             <i class="fas fa-envelope text-2xl sterling-red mt-1"></i>
                             <div>
                                 <h4 class="font-bold text-xl text-gray-900">Email</h4>
-                                <p class="text-gray-600">contact@sterling-rdc.com</p>
+                                <p class="text-gray-600">contact@sterling-rdc.com</p> <!-- Placeholder email -->
                             </div>
                         </div>
                     </div>
